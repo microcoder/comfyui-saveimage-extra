@@ -18,6 +18,17 @@ Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that saves 
 * **Combine Extra Data** — collects parameters into a JSON string and are located in the `utils` category
 * **Save Image Extra** — saves image with custom metadata in PNG and are located in the `image` category
 
+## Use Cases
+
+For example ([Download the workflow](_media/Flux-2.Text2Image-Demo.json)):
+
+![](_media/1.png)
+![](_media/2.png)
+
+Then you can view the metadata in the PNG image:
+
+![](_media/3.png)
+
 ## License
 
 MIT
