@@ -25,7 +25,7 @@ For example ([Download the workflow](_media/Flux-2.Text2Image-Demo.json)):
 ![](_media/1.png)
 ![](_media/2.png)
 
-Then you can view the metadata in the PNG image:
+Then you can see the metadata in the PNG image:
 
 ![](_media/3.png)
 
