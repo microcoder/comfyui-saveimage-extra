@@ -15,5 +15,9 @@ Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that saves 
 
 ## Nodes
 
-* **Combine Extra Data** — collects parameters into a JSON string
-* **Save Image Extra** — saves image with custom metadata in PNG
+* **Combine Extra Data** — collects parameters into a JSON string and are located in the `utils` category
+* **Save Image Extra** — saves image with custom metadata in PNG and are located in the `image` category
+
+## License
+
+MIT
