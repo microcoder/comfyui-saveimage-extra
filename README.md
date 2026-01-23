@@ -1,0 +1,12 @@
+# ComfyUI SaveImage Extra
+
+Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that saves images with extra metadata (model name, seed, prompt, etc.) as PNG text chunks.
+
+## Installation
+
+1. Clone this repo into your `ComfyUI/custom_nodes/` folder:
+
+    ```bash
+    cd ComfyUI/custom_nodes
+    git clone https://github.com/microcoder/comfyui-saveimage-extra.git
+    ```
