@@ -10,3 +10,10 @@ Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that saves 
     cd ComfyUI/custom_nodes
     git clone https://github.com/microcoder/comfyui-saveimage-extra.git
     ```
+
+2. Restart ComfyUI
+
+## Nodes
+
+* **Combine Extra Data** — collects parameters into a JSON string
+* **Save Image Extra** — saves image with custom metadata in PNG
