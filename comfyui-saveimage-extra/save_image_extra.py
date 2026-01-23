@@ -15,7 +15,7 @@ class CombineExtraDataNode:
     """
 
     DESCRIPTION = cleandoc(__doc__ or "")
-    CATEGORY = "image"
+    CATEGORY = "utils"
 
     @classmethod
     def INPUT_TYPES(cls) -> InputTypeDict:
