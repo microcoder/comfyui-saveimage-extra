@@ -21,11 +21,11 @@ class CombineExtraDataNode:
     def INPUT_TYPES(cls) -> InputTypeDict:
         return {
             "optional": {
-                "model_name": (IO.ANY, {}),
-                "prompt": (IO.STRING, {"forceInput": True}),
-                "seed": (IO.INT, {"forceInput": True}),
-                "steps": (IO.INT, {"forceInput": True}),
-                "cfg": (IO.FLOAT, {"forceInput": True}),
+                "model_name": (IO.ANY, {"forceInput": True, "tooltip": f"Input ANY: {IO.STRING}, {IO.INT}, {IO.FLOAT}, {IO.BOOLEAN}"}),
+                "prompt": (IO.STRING, {"forceInput": True, "tooltip": f"Input: {IO.STRING}"}),
+                "seed": (IO.INT, {"forceInput": True, "tooltip": f"Input: {IO.INT}"}),
+                "steps": (IO.INT, {"forceInput": True, "tooltip": f"Input: {IO.INT}"}),
+                "cfg": (IO.FLOAT, {"forceInput": True, "tooltip": f"Input: {IO.BOOLEAN}"}),
             }
         }
 
